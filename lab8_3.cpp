@@ -2,8 +2,20 @@
 using namespace std;
 
 char before(char x){
-	//Write your function definition here
+if(x != '0'){	
+	if(x <= 90){
+		if(x == 65){
+			x += 25;
+		}else{
+			x -= 1;
+		}
+	}else{
+		x = '0';}
+}else{
 }
+return x;
+}
+
 
 int main(){
 	//Test Case
